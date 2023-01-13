@@ -57,7 +57,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: harbor.t3u.link/tap-project/supply-chain/spring-sensors-rabbit-new-dev-ns@sha256:d4e0799de359c93c19dcafc07fbd29bbbdea3e244c647737f3c1f5ade170bcd5
+        image: harbor.t3u.link/tap-project/supply-chain/spring-sensors-rabbit-new-dev-ns@sha256:efefccaa043f4983892ba06410846a9dad2ea9f6244576f4fb2f56bf4f869ceb
         name: workload
         ports:
         - containerPort: 8080
